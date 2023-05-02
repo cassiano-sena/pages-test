@@ -12,11 +12,11 @@ body {
 
 
 .cor-1 {
-    background-color: #EEEEEE;
+    background-color: red;
 }
 
 .cor-2 {
-    background-color: #FFFFFF;
+    background-color: red;
 }
 
 .cor-3 {
@@ -34,7 +34,7 @@ body {
 
 
 .cabecalho {
-    background-color: grey;
+    background-color: white;
     width: screen;
     height: 10%;
 }
