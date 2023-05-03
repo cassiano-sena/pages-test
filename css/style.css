@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url("lib/gallery/pexels-photomix-company-96622.jpg");
     background-repeat: no-repeat;
@@ -7,16 +11,12 @@ body {
 }
 
 .first-section {
-    /* width: 1440px; */
-    /* height: 800px; */
     height: 980px;
     width: 100%;
     border: solid 1px black;
 }
 
 .section {
-    /* width: 1440px; */
-    /* height: 800px; */
     margin-left: 20%;
     height: 500px;
     width: 1200px;
@@ -26,11 +26,6 @@ body {
 .final-section {
     width: screen;
     height: 1080px;
-    border: solid 1px black;
-}
-
-div{
-    /* border: solid 1px blue; */
 }
 
 .cor-1 {
@@ -80,12 +75,14 @@ div{
     position: sticky;
     background-color: azure;
     width: 100%;
-    height: 10%;
+    height: 7%;
 }
 
 .cabecalho-section{
     width: 50%; 
     height: 100%;
+    padding: 10px;
+    font-size: 25px;
 }
 
 .rodape {
@@ -95,11 +92,6 @@ div{
     width: 100%;
     height: 150px;
 }
-
-.icons{
-    border: solid 5px green;
-}
-
 .final{
     background-color: beige; 
     width: screen; 
@@ -108,7 +100,6 @@ div{
 
 
 .home1{
-    /* background-color: aliceblue; */
     width: 100%; 
     height: 70%;
 }
@@ -124,24 +115,14 @@ div{
     display: flex;
     height: 100%;
     width: 100%;
-    /* color: white;
-    font-size: 20px; */
 }
 
 .sobre-info {
-    /* background-color: cornflowerblue; */
-    /* width:auto;  */
-    /* height:auto; */
-    /* display: grid; */
     color: white;
     font-size: 17px;
 }
 
 .sobre-info2 {
-    /* background-color: cornflowerblue; */
-    /* width:auto;  */
-    /* height:auto; */
-    /* display: grid; */
     padding: 10px;
     color: black;
     font-size: 20px;
@@ -154,7 +135,6 @@ div{
 }
 
 .projetos-info {
-    /* background-color: cornflowerblue; */
     width:auto; 
     height:auto;
     padding: 9px;
@@ -171,7 +151,6 @@ div{
 }
 
 .pessoa-info {
-    /* background-color: cornflowerblue;  */
     width:auto; 
     height:auto;
     padding: 20px;
@@ -205,6 +184,7 @@ div{
 }
 
 .clientes-info {
-    background-color: cornflowerblue; width:auto; 
+    background-color: cornflowerblue; 
+    width:auto; 
     height:auto;
 }
