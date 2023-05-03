@@ -1,13 +1,25 @@
 body {
+    background: url("lib/gallery/pexels-photomix-company-96622.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin: 0px;
     position: relative;
+}
+
+.first-section {
+    /* width: 1440px; */
+    /* height: 800px; */
+    height: 980px;
+    width: 100%;
+    border: solid 1px black;
 }
 
 .section {
     /* width: 1440px; */
     /* height: 800px; */
-    height: 1080px;
-    width: 100%;
+    margin-left: 20%;
+    height: 500px;
+    width: 1200px;
     border: solid 1px black;
 }
 
@@ -42,12 +54,25 @@ div{
 }
 
 .scit-title{
-    /* font-family: 'Montserrat'; */
+    font-family: 'Montserrat';
     color: white;
     position: absolute;
     font-size: 100px;
 }
 
+.scit-subtitle {
+    font-family: 'Montserrat';
+    color: white;
+    position: absolute;
+    font-size: 40px;
+}
+
+.scit-text{
+    font-family: 'Montserrat';
+    color: white;
+    position: absolute;
+    font-size: 30px;
+}
 
 
 .cabecalho {
@@ -99,6 +124,8 @@ div{
     display: flex;
     height: 100%;
     width: 100%;
+    /* color: white;
+    font-size: 20px; */
 }
 
 .sobre-info {
@@ -106,8 +133,19 @@ div{
     /* width:auto;  */
     /* height:auto; */
     /* display: grid; */
+    color: white;
+    font-size: 17px;
 }
 
+.sobre-info2 {
+    /* background-color: cornflowerblue; */
+    /* width:auto;  */
+    /* height:auto; */
+    /* display: grid; */
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
 
 .projetos {
     display: flex;
@@ -119,6 +157,11 @@ div{
     /* background-color: cornflowerblue; */
     width:auto; 
     height:auto;
+    padding: 9px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 16px;
 }
 
 .equipe {
@@ -131,18 +174,25 @@ div{
     /* background-color: cornflowerblue;  */
     width:auto; 
     height:auto;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .pessoa1 {
     display: flex;
     height: 100%;
     width: 100%;
+    color: white;
+    font-size: 30px;
 }
 
 .pessoa2 {
     display: flex;
     height: 100%;
     width: 100%;
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -150,6 +200,8 @@ div{
     display: flex;
     height: 100%;
     width: 100%;
+    color: white;
+    font-size: 30px;
 }
 
 .clientes-info {
