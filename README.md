@@ -1,3 +1,3 @@
 # cassiano-sena.github.io
 
-Um One-Page Repositório feito como trabalho de Ciências da Computação
+Uma One-Page repositório feito como trabalho de Ciências da Computação
